@@ -1,0 +1,7 @@
+---
+version: '3.7'
+services:
+  test:
+    image: alpine:latest
+    entrypoint: /usr/bin/nc
+    command: -s 8001

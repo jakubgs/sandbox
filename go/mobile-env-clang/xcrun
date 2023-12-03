@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+if [[ $3 == "--find" ]]; then
+cat << EOF
+2022-09-08 11:14:30.304 xcodebuild[42950:417590] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2022-09-08 11:14:30.304 xcodebuild[42950:417590] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2022-09-08 11:14:30.358 xcodebuild[42950:417590] XType: com.apple.fonts is not accessible.
+2022-09-08 11:14:30.358 xcodebuild[42950:417590] XType: XTFontStaticRegistry is enabled.
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+EOF
+else
+cat << EOF
+2022-09-08 11:36:02.572 xcodebuild[86883:24171753] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2022-09-08 11:36:02.572 xcodebuild[86883:24171753] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2022-09-08 11:36:02.626 xcodebuild[86883:24171753] XType: com.apple.fonts is not accessible.
+2022-09-08 11:36:02.626 xcodebuild[86883:24171753] XType: XTFontStaticRegistry is enabled.
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+EOF
+fi

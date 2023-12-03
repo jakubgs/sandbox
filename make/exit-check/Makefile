@@ -1,0 +1,4 @@
+
+test:
+	ls xyz
+	echo $$?

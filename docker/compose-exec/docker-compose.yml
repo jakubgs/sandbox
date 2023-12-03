@@ -1,0 +1,7 @@
+---
+version: '3.7'
+services:
+  node:
+    container_name: 'exec-test'
+    image: 'alpine'
+    command: sleep 99999

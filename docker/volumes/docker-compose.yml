@@ -1,0 +1,6 @@
+services:
+  chmod:
+    build: ./chmod
+    entrypoint: sleep 9999
+    volumes:
+      - './file2:/opt/test/file2'

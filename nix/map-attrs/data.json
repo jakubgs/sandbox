@@ -1,0 +1,33 @@
+[
+  {
+    "path": "xerces/xercesImpl/2.12.0/xercesImpl-2.12.0",
+    "host": "https://repo.maven.apache.org/maven2",
+    "type": "jar",
+    "files": {
+      "pom": {
+        "sha1": "673c91f8212d2f2add1a7557174af19069e87070",
+        "sha256": "1wx1c0a8ny0dikd2846lx3bp60amxsh91yxlrpahy277rhrvp3hk"
+      },
+      "jar": {
+        "sha1": "f02c844149fd306601f20e0b34853a670bef7fa2",
+        "sha256": "1l3nbvda7pf573ijfwqz899nji40jjmbib1qr38s9yh2lm63l3dm"
+      }
+    }
+  },
+
+  {
+    "path": "xml-apis/xml-apis/1.4.01/xml-apis-1.4.01",
+    "host": "https://repo.maven.apache.org/maven2",
+    "type": "jar",
+    "files": {
+      "pom": {
+        "sha1": "1c657bc14f11cbfcebb2ebf63eebd5cd85b08872",
+        "sha256": "14hf08ji9bjg5q8xmxc58x8f80lsv2psdq2526ivz1mca3qjza09"
+      },
+      "jar": {
+        "sha1": "3789d9fada2d3d458c4ba2de349d48780f381ee3",
+        "sha256": "1bbzpq7g599mpr5f9vprhm462fdbczh7dlxf06xq8mk4fs0rch58"
+      }
+    }
+  }
+]
